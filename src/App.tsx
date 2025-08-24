@@ -42,7 +42,7 @@ const App = () => {
   const handleEditRecipe = (recipe: Recipe) => {
 
     setEditingRecipe(recipe);
-    setName(recipe.name);
+    setName(recipe.name); 
     setIngredients(recipe.ingredients.join(", "));
     setInstructions(recipe.instrctions);
       
